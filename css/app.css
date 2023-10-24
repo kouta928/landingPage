@@ -116,3 +116,9 @@ body{
     font-size: 1.3rem;
     margin: 3em;
   }
+
+  .projetos-display{
+    height: 360px;
+    width: 600px;
+    border-radius: 15px;
+  }

@@ -9,7 +9,7 @@ body{
 
 .banner{
     height: 80vh;
-    background-image: url(/LandingBoot/img/bg1.png);
+    background-image: url(/img/bg1.png);
     background-repeat: no-repeat;
     background-position: .5em;
     background-size: 140vh;

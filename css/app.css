@@ -1,0 +1,118 @@
+
+body{
+    background: linear-gradient(black, rgb(89, 87, 87));
+}
+
+.navegacao{
+    height: 60px;
+}
+
+.banner{
+    height: 80vh;
+    background-image: url(/LandingBoot/img/bg1.png);
+    background-repeat: no-repeat;
+    background-position: .5em;
+    background-size: 140vh;
+}
+
+.banner1{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    padding: 5em 0 0 55px;
+}
+
+.banner2{
+    color: white;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 65px 50px 55px 250px;
+    text-align: right;
+}
+.icon{
+    height: 80px;
+}
+
+.logo{
+    height: 250px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.titulo{
+    height: 80px;
+}
+
+.itens{
+    height: 14vh;
+}
+
+.icon:hover{
+    border: 1px white solid;
+    border-radius: 1.4em;
+    transition: ease-in-out;
+    transition-duration: .4s;
+}
+
+.itemGrande .row{
+    padding: 100px 0;
+}
+
+.espacador1{
+    height: 5em;
+  }
+
+@media(max-width: 600px) {
+    .icon {
+      size: 4vh;
+    }
+    .itens{
+        size:4vh
+    }
+    .logo{
+        height: 10em;
+        margin-left: 1em;
+        margin-top: .3em;
+    }
+    .banner{
+        height: 80vh;
+        background-image: url(/LandingBoot/img/bg1.png);
+        background-repeat: no-repeat;
+        background-size: 60vh;
+
+    }
+    .banner1{
+        color: white;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding: 2em 0 0 2.4em;
+    }
+    .banner2{
+        color: white;
+        font-weight: bold;
+        font-size: 1em;
+        padding: 1em 1em 1em 2em;
+        /* text-align: right; */
+    }
+
+  }
+
+  .descricao-projetos{
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .projeto-direita{
+    text-align: left;
+    padding: 2em 2em 0 2em ;
+  }
+  .projeto-esquerda{
+    text-align: right;
+    padding: 2em 4em 0 0 ;
+  }
+
+  .descricao-footer{
+    color: white;
+    font-size: 1.3rem;
+    margin: 3em;
+  }

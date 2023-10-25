@@ -20,6 +20,7 @@ body{
     font-weight: bold;
     font-size: 3em;
     padding: 5em 0 0 55px;
+    text-shadow: 5px 5px 15px rgba(255,255,255,30%);
 }
 
 .banner2{
@@ -52,11 +53,17 @@ body{
     height: 14vh;
 }
 
-
-
-.icon:hover{
+.square:hover{
     border: 1px white solid;
     border-radius: 1.4em;
+    transform: scale(1.4);
+    transition: ease-in-out;
+    transition-duration: .4s;
+}
+
+.circle:hover{
+    border: 1px white solid;
+    border-radius: 3em;
     transform: scale(1.4);
     transition: ease-in-out;
     transition-duration: .4s;
@@ -70,40 +77,6 @@ body{
     height: 5em;
   }
 
-@media(max-width: 600px) {
-    .icon {
-      size: 4vh;
-    }
-    .itens{
-        size:4vh
-    }
-    .logo{
-        height: 10em;
-        margin-left: 1em;
-        margin-top: .3em;
-    }
-    .banner{
-        height: 80vh;
-        background-image: url(/LandingBoot/img/bg1.png);
-        background-repeat: no-repeat;
-        background-size: 60vh;
-
-    }
-    .banner1{
-        color: white;
-        font-weight: bold;
-        font-size: 1.5em;
-        padding: 2em 0 0 2.4em;
-    }
-    .banner2{
-        color: white;
-        font-weight: bold;
-        font-size: 1em;
-        padding: 1em 1em 1em 2em;
-        /* text-align: right; */
-    }
-
-  }
 
   .descricao-projetos{
     color: white;
@@ -129,9 +102,44 @@ body{
     height: 360px;
     width: 600px;
     border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(255,255,255,30%);
   }
 
   .projetos-display:hover{
     transform: scale(1.1);
     transition: ease-in-out 1s;
+  }
+
+  @media(max-width: 600px) {
+    .icon {
+      size: 4vh;
+    }
+    .itens{
+        size:4vh
+    }
+    .logo{
+        height: 10em;
+        margin-left: 1em;
+        margin-top: .3em;
+    }
+    /* .banner{
+        height: 80vh;
+        background-image: url(/LandingBoot/img/bg1.png);
+        background-repeat: no-repeat;
+        background-size: 60vh;
+    } */
+    .banner1{
+        color: white;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding: 2em 0 0 2.4em;
+    }
+    .banner2{
+        color: white;
+        font-weight: bold;
+        font-size: 1em;
+        padding: 1em 1em 1em 2em;
+        /* text-align: right; */
+    }
+
   }

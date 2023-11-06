@@ -31,6 +31,7 @@ body{
     padding: 65px 50px 55px 250px;
     text-align: right;
 }
+
 .icon{
     height: 5em;
 }
@@ -42,7 +43,8 @@ body{
 }
 
 .logo:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+    filter: drop-shadow(2px 5px 10px rgb(15, 225, 158));
     transition: ease-in-out .5s;
 }
 
@@ -79,29 +81,31 @@ body{
   }
 
 
-  .descricao-projetos{
+  
+  .caixa{
+      border-radius: 1rem;
+      background: linear-gradient(gray, rgb(89, 87, 87));
+      margin-top: 5rem;
+      width: 30%;
+      height: 20%;
+      padding: 2em;
+    }
+    
+.descricao-projetos{
     color: white;
     font-size: 1.3rem;
-  }
-
-.caixa{
-    border-radius: 1rem;
-    background: linear-gradient(gray, rgb(89, 87, 87));
-    margin-top: 5rem;
-    width: 30%;
-    height: 20%;
-    padding: 2em;
 }
 
 .projeto-direita{
     text-align: left;
-
     padding: 8em 4em 0 0 ;
+    margin-left: 4em;
 }
+
 .projeto-esquerda{
     text-align: left;
-
     padding: 8em 4em 0 0 ;
+    margin-left: 4em;
 }
 
 .descricao-footer{
@@ -170,6 +174,9 @@ body{
     }
     .projetos-display{
         margin-top: 5em;
+    }
+    .projeto-direita{
+        
     }
 
   }
